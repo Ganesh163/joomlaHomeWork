@@ -1,0 +1,49 @@
+#main-heading {
+  text-align: center;
+  margin: 2% auto;
+}
+
+.main-area {
+  background: #f0f0f0;
+}
+
+.item {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background: lightblue;
+  border: 2px solid blue;
+}
+
+.resizer {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: blue;
+  z-index: 2;
+}
+
+.nw {
+  top: -4px;
+  left: -4px;
+  cursor: nw-resize;
+}
+
+.ne {
+  top: -4px;
+  right: -4px;
+  cursor: ne-resize;
+}
+
+.sw {
+  bottom: -4px;
+  right: -4px;
+  cursor: se-resize;
+}
+
+.se {
+  bottom: -4px;
+  left: -4px;
+  cursor: sw-resize;
+}
+/*# sourceMappingURL=style.css.map */
